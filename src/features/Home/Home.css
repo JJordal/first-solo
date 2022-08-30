@@ -1,0 +1,26 @@
+.home{
+    background-color: var(--bg-accent);
+    height: 700px;
+    width: auto;
+    color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.home-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-list-item{
+    font-size: 40px;
+    margin: 10px;
+    color: var(--bg);
+}
